@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace Car_Program
+namespace CarClassExample
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Car car = new Car();
+
+            //car.GasLevel = 10f;
+            //car.AddGas(10);
         }
     }
 }
